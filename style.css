@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.header-contacts {
+    display: flex;
+    gap: 15px;
+}
+
+.header-contacts a {
+    font-size: 25px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.header-contacts a:hover {
+    color: #0073b1; /* Azul do LinkedIn */
+}
+
+/* Cores específicas para cada ícone */
+.header-contacts a:nth-child(2):hover { color: #333; } /* GitHub */
+.header-contacts a:nth-child(3):hover { color: #25d366; } /* WhatsApp */
+.header-contacts a:nth-child(4):hover { color: #ea4335; } /* E-mail */
