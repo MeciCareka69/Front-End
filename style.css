@@ -29,7 +29,7 @@ body{
 }
 
 .imagem1, .imagem2, .imagem3 {
-    display: inline-block; /* Coloca lado a lado */
-    margin-right: 20px;    /* Espaço entre as imagens */
+    display: inline-block; 
+    margin-right: 20px;    
     justify-content: center;
 }
